@@ -1,0 +1,10 @@
+*.pt
+*.engine
+*.weights
+*.cfg
+*.h5
+*.ckpt
+*.mp4
+*.webm
+venv
+__pycache__

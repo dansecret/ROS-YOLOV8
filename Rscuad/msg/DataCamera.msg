@@ -1,0 +1,9 @@
+bool ball
+bool target
+float64 ball_x
+float64 ball_y
+float64 target_x
+float64 target_y
+float64 loc_x
+float64 loc_y
+float64 point

@@ -1,0 +1,10 @@
+test
+*.o
+*.out
+/makefile
+*.cpp~
+*.weights
+*.cfg
+*.names
+memoryleak.rpt
+.vscode

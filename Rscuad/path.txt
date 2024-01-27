@@ -1,0 +1,10 @@
+serial/serial.cpp
+utilities/print.cpp
+utilities/utilities.cpp
+communication/communication.cpp
+communication/src/manager.cpp
+communication/src/network.cpp
+communication/src/referee.cpp
+communication/src/basestation.cpp
+camera/api/camera.cpp
+//dont remove this
