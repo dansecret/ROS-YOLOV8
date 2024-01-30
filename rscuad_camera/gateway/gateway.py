@@ -67,14 +67,14 @@ class Gateway:
 		if USE_ROS:
 			dc = DataCamera()
 			dc.ball = is_ball
-			dc.target = is_robot
 			dc.ball_x = ball_x
 			dc.ball_y = ball_y
-			dc.target_x = robot_x
-			dc.target_y = robot_y
+			dc.point = is_goal
 			dc.loc_x = goal_x
 			dc.loc_y = goal_y
-			dc.point = is_goal
+			dc.target = is_robot
+			dc.target_x = robot_x
+			dc.target_y = robot_y
 			
 			self.pub_data.publish(dc)
 		else:

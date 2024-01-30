@@ -12,9 +12,9 @@ void module_init()
 		Initial
     camera init not necessary in ROS
 	*/
-	RSCUAD::Get()->communication->SetIPGC("192.168.43.103");
-	RSCUAD::Get()->serial->Init(1, "/dev/ttyUSB0");
-	RSCUAD::Get()->communication->Init("192.168.43.103", 1, true, 3, true);
+	// RSCUAD::Get()->communication->SetIPGC("192.168.43.103");
+	// RSCUAD::Get()->serial->Init(1, "/dev/ttyUSB0");
+	// RSCUAD::Get()->communication->Init("192.168.43.103", 1, true, 3, true);
 
 }
 
@@ -58,15 +58,17 @@ void module_test()
     float robot_x = RSCUAD::Get()->camera->GetRobotX();
     float robot_y = RSCUAD::Get()->camera->GetRobotY();
 
-    RSCUAD_PRINT("ball %d \n", ball);
-    RSCUAD_PRINT("ball X %f \n", ball_x);
-		RSCUAD_PRINT("ball Y %f \n", ball_y);
-		RSCUAD_PRINT("goal %d \n", goal);
-		RSCUAD_PRINT("goal X %f \n", goal_x);
-		RSCUAD_PRINT("goal Y %f \n", goal_y);
-    RSCUAD_PRINT("robot %d \n", robot);
-    RSCUAD_PRINT("robot Y %f \n", robot_y);
-    RSCUAD_PRINT("robot Y %f \n", robot_y);
+    RSCUAD_PRINT(_BOLDYELLOW "ball %d \n", ball);
+    RSCUAD_PRINT(_BOLDYELLOW "ball X %f \n", ball_x);
+		RSCUAD_PRINT(_BOLDYELLOW "ball Y %f \n", ball_y);
+
+		RSCUAD_PRINT(_BOLDGREEN "goal %d \n", goal);
+		RSCUAD_PRINT(_BOLDGREEN "goal X %f \n", goal_x);
+		RSCUAD_PRINT(_BOLDGREEN "goal Y %f \n", goal_y);
+
+    RSCUAD_PRINT(_BOLDMAGENTA "robot %d \n", robot);
+    RSCUAD_PRINT(_BOLDMAGENTA "robot Y %f \n", robot_y);
+    RSCUAD_PRINT(_BOLDMAGENTA "robot Y %f \n", robot_y);
 
 
     // RSCUAD::Get()->communication->Camera(RSCUAD::Get()->camera->GetFrame());

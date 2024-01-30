@@ -24,7 +24,7 @@ if not USE_ROS:
 else :
 	import rospy
 
-cap = cv.VideoCapture(1)  
+cap = cv.VideoCapture(0)  
 cap.set(cv.CAP_PROP_FRAME_WIDTH, 320) 
 cap.set(cv.CAP_PROP_FRAME_HEIGHT, 240)
 cap.set(cv.CAP_PROP_FPS, 30) 			 # Sesuaikan frame rate
