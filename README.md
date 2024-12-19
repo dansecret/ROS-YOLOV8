@@ -29,3 +29,4 @@ This repository integrates YOLOv8 for real-time object detection with ROS (Robot
 
 [Watch Demo Implementation in Robot Humanoid](https://drive.google.com/file/d/1YfKIN3Wyptv8VK11zkPxW9rOZ1UR9hVB/view?usp=sharing)
 
+Author :  [HAMDANDIH](https://github.com/dansecret)
