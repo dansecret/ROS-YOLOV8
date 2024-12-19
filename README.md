@@ -20,7 +20,9 @@ This repository integrates YOLOv8 for real-time object detection with ROS (Robot
     ```
 
 ## Screenshot
-![YOLOv8 detection](path_to_screenshot.png)
+![RUN ROS and Detection in Terminal](https://github.com/user-attachments/assets/3fdc3fc1-05c8-4712-ae28-3f65e2c8360d)
+![IMPLEMENT DETECTION)](https://github.com/user-attachments/assets/7b0af76f-fbab-4795-956c-b5e6d75c6fc9)
+
 
 ## Video Demo
 [Watch Demo Run Program](https://drive.google.com/file/d/1UWu-dkhhzgfK1oOOZLyr1yd2GNvCtdva/view?usp=sharing)
